@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from './Components/Header/Header'
 import Home from './Components/Home/Home'
 import About from './Components/About/About'
@@ -9,8 +9,19 @@ import Profissional from './Components/Profissional/Profissional'
 import Depoiments from './Components/Depoiments/Depoiments'
 import ContactUs from './Components/ContactUs/ContactUs'
 import Footer from './Components/Footer/Footer'
+import AOS from 'aos'
 
 const App = () => {
+
+  useEffect(() => {
+    const isMobile = window.innerWidth <= 768;
+
+    if (!isMobile) {
+      AOS.init({ duration: "500" });
+    }else{
+      AOS.init({ disable: true });
+    }
+  }, []);
   return (
     <div>
       <Header />

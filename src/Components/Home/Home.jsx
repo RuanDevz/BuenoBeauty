@@ -5,7 +5,7 @@ import Button from '../../Components/Button/Button';
 
 const Home = () => {
   return (
-    <div className='lg:mx-auto w-screen'>
+    <div data-aos="fade-left" className='lg:mx-auto w-screen'>
       <div className='bg-primary lg:bg-primary flex flex-col lg:flex-row justify-evenly items-center border-b-6 border-gray-800'>
         <div className=' flex justify-center items-center'>
           <img className=' ' src={modelo} alt="modelo" />

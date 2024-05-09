@@ -7,52 +7,55 @@ const Footer = () => {
   return (
     <div>
       <main className='bg-black flex  flex-col mt-32'>
-        <section className='flex justify-around items-center text-center gap-48 py-24 '>
-          <article className='flex flex-col max-w-lg'>
+        <section className=' text-center gap-48 py-24 lg:flex justify-around items-center'>
+          <article className='flex flex-col items-center max-w-lg text'>
             <img className='w-72'  src={logo} alt="logo" />
-            <p className='text-white pt-10 font-segundary text-left'>BuenoBeauty é mais do que um salão de beleza, é um espaço onde a beleza encontra o seu significado mais profundo. Nossa missão é proporcionar experiências de beleza excepcionais, que vão além da estética, elevando a autoestima e a confiança de nossos clientes.</p>
+            <p className='text-white pt-10 font-segundary text-left pb-20 lg:pb-0'>BuenoBeauty é mais do que um salão de beleza, é um espaço onde a beleza encontra o seu significado mais profundo. Nossa missão é proporcionar experiências de beleza excepcionais, que vão além da estética, elevando a autoestima e a confiança de nossos clientes.</p>
           </article>
-          <article>
-            <h1 className='text-segundary font-primary text-xl text-left pb-6'>Empresa</h1>
+          <article className='flex flex-col items-center'>
+            <h1 className='text-segundary font-primary text-2xl text-left py-6 lg:mr-10'>Empresa</h1>
             <nav>
               <ul>
-                <li className='text-white text-left cursor-pointer hover:text-primary my-2'>Sobre nós</li>
-                <li className='text-white text-left cursor-pointer hover:text-primary my-2'>Serviços</li>
-                <li className='text-white text-left cursor-pointer hover:text-primary my-2'>Profissionais</li>
-                <li className='text-white text-left cursor-pointer hover:text-primary my-2'>Trabalhe conosco</li>
+                <li className='text-white text-center cursor-pointer hover:text-primary my-2 lg:text-left'>Sobre nós</li>
+                <li className='text-white text-center cursor-pointer hover:text-primary my-2 lg:text-left'>Serviços</li>
+                <li className='text-white text-center cursor-pointer hover:text-primary my-2 lg:text-left'>Profissionais</li>
+                <li className='text-white text-center cursor-pointer hover:text-primary my-2 lg:text-left'>Trabalhe conosco</li>
               </ul>
             </nav>
           </article>
-          <article>
-            <h1 className='text-segundary font-primary text-xl text-left pb-6'>Serviços</h1>
+          <article className='flex flex-col items-center'>
+            <h1 className='text-segundary font-primary text-2xl text-left py-6 lg:mr-10'>Serviços</h1>
             <nav>
               <ul>
-                <li className='text-white text-left cursor-pointer hover:text-primary my-2'>Lavada Especial</li>
-                <li className='text-white text-left cursor-pointer hover:text-primary my-2'>Corte Feminino</li>
-                <li className='text-white text-left cursor-pointer hover:text-primary my-2'>Escova</li>
-                <li className='text-white text-left cursor-pointer hover:text-primary my-2'>Luzes</li>
-                <li className='text-white text-left cursor-pointer hover:text-primary my-2'>Mais Serviços</li>
+                <li className='text-white text-center cursor-pointer hover:text-primary my-2 lg:text-left'>Lavada Especial</li>
+                <li className='text-white text-center cursor-pointer hover:text-primary my-2 lg:text-left'>Corte Feminino</li>
+                <li className='text-white text-center cursor-pointer hover:text-primary my-2 lg:text-left'>Escova</li>
+                <li className='text-white text-center cursor-pointer hover:text-primary my-2 lg:text-left'>Luzes</li>
+                <li className='text-white text-center cursor-pointer hover:text-primary my-2 lg:text-left'>Mais Serviços</li>
               </ul>
             </nav>
           </article>
-          <article>
-            <h1 className='text-segundary font-primary text-xl text-left pb-6'>Contato</h1>
+          <article className='flex flex-col items-center'>
+            <h1 className='text-segundary font-primary text-2xl text-left py-6 lg:mr-10'>Contato</h1>
             <nav>
               <ul>
-                <li className='text-white text-left cursor-pointer hover:text-primary my-2'>Fale Conosco</li>
-                <li className='text-white text-left cursor-pointer hover:text-primary my-2'>Agendar Horário</li>
-                <li className='text-white text-left cursor-pointer hover:text-primary my-2 flex gap-3'>
+                <li className='text-white text-center cursor-pointer hover:text-primary my-2 lg:text-left'>Fale Conosco</li>
+                <li className='text-white text-center cursor-pointer hover:text-primary my-2 lg:text-left'>Agendar Horário</li>
+                <li className='text-white text-center cursor-pointer hover:text-primary my-2 lg:text-left flex gap-3'>
                  <img className='w-5' src={Telefone} alt="Telefone" />(00) 0000-0000</li>
                 <li className='text-white text-left cursor-pointer hover:text-primary my-2 flex gap-3'>
                 <img className='w-5' src={WhatsApp} alt="WhatsApp" /> (00) 0000-0000</li>
-                <li className='text-white text-left cursor-pointer hover:text-primary my-2'>Trabalhe conosco</li>
+                <li className='text-white text-center cursor-pointer hover:text-primary my-2 lg:text-left'>Trabalhe conosco</li>
               </ul>
             </nav>
           </article>
         </section>
         <section className='bg-footer py-10 flex justify-around text-white'>
-          <p>Bueno Beauty © Todos Direitos Reservados </p>
-          <p>Conheça nossos <span className='text-segundary'>Termos de Uso</span> e <span className='text-segundary'>Política de Privacidade</span>.</p>
+          <p className='hidden lg:flex'>Bueno Beauty © Todos Direitos Reservados </p>
+          <p className='hidden lg:flex'>
+  Conheça nossos <span className='text-segundary cursor-pointer hover:underline'>Termos de Uso &nbsp;</span> e&nbsp;<span className='text-segundary cursor-pointer hover:underline'>Política de Privacidade</span>.
+</p>
+
           <p>Desenvolvido por <span className='text-segundary font-bold hover:underline cursor-pointer'>RuanDevz</span></p>
         </section>
       </main>

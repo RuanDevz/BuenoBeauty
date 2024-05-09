@@ -4,7 +4,7 @@ import Button from '../Button/Button'
 const Newsletter = () => {
   return (
     <div>
-        <div className='bg-Newsletter flex  items-center flex-col pt-12'>
+        <div data-aos="fade-down" className='bg-Newsletter flex  items-center flex-col pt-12'>
             <p className='text-text font-primary font-bold text-2xl'>ASSINE NOSSA</p>
             <h1 className='font-primary font-bold text-white text-4xl'>NEWSLETTER</h1>
             <p className='text-white font-segundary font-light pt-10 text-center lg:text-left'>Cadastre-se para receber gratuitamente nossas promoções diretamente em seu e-mail.</p>

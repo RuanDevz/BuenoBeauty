@@ -47,23 +47,28 @@ const depoiments = [
 const Depoiments = () => {
 
     return (
-        <div className='bg-depoiments pb-40'>
+        <div  data-aos="fade-left" data-aos-offset="900" className='bg-depoiments pb-40'>
             <h1 className='text-segundary font-primary text-4xl text-center font-bold py-10'>DEPOIMENTOS</h1>
-            <Swiper
+            <Swiper className='lg:'
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 spaceBetween={50}
-                slidesPerView={3}
+                slidesPerView={1}
                 navigation
                 scrollbar={{ draggable: true }}
+                breakpoints={{
+                    992: {
+                        slidesPerView: 2
+                    }
+                }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
             >
                 {depoiments.map((depoimento, index) => (
                     <SwiperSlide key={index}>
-                        <div className='flex justify-evenly px-20'>
+                        <div className='flex justify-evenly mx-12'>
                             <div key={index} className='bg-depoimentstwo p-14 rounded max-w-lg mt-16'>
                                 <div className='flex items-center mb-8'>
-                                    <img className='' src={aspas} alt="" />
+                                    <img className='hidden lg:flex' src={aspas} alt="" />
                                     <p className='font-segundary ml-4 max-w-xs'>{depoimento.depoiment}</p>
                                 </div>
                                 <div className="flex items-center">
