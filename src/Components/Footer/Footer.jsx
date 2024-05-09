@@ -10,7 +10,7 @@ const Footer = () => {
         <section className='flex justify-around items-center text-center gap-48 py-24 '>
           <article className='flex flex-col max-w-lg'>
             <img className='w-72'  src={logo} alt="logo" />
-            <p className='text-white pt-10 font-segundary text-left'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <p className='text-white pt-10 font-segundary text-left'>BuenoBeauty é mais do que um salão de beleza, é um espaço onde a beleza encontra o seu significado mais profundo. Nossa missão é proporcionar experiências de beleza excepcionais, que vão além da estética, elevando a autoestima e a confiança de nossos clientes.</p>
           </article>
           <article>
             <h1 className='text-segundary font-primary text-xl text-left pb-6'>Empresa</h1>
@@ -44,7 +44,8 @@ const Footer = () => {
                 <li className='text-white text-left cursor-pointer hover:text-primary my-2 flex gap-3'>
                  <img className='w-5' src={Telefone} alt="Telefone" />(00) 0000-0000</li>
                 <li className='text-white text-left cursor-pointer hover:text-primary my-2 flex gap-3'>
-                <img className='w-5' src={WhatsApp} alt="WhatsApp" /> Trabalhe conosco</li>
+                <img className='w-5' src={WhatsApp} alt="WhatsApp" /> (00) 0000-0000</li>
+                <li className='text-white text-left cursor-pointer hover:text-primary my-2'>Trabalhe conosco</li>
               </ul>
             </nav>
           </article>

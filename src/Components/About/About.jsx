@@ -8,7 +8,7 @@ import isolated from '../../assets/ImagesAbout/isolated.png'
 
 const About = () => {
   return (
-    <div className='flex justify-between'>
+    <div className='flex justify-between mx-auto'>
         <div className='font-primary max-w-lg mx-auto pt-20'>
             <h1 className='text-button font-bold'>SOBRE A</h1>
             <h2 className='text-primary text-4xl font-medium pb-6'>BUENO BEAUTY</h2>
