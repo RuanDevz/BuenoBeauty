@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Syne:wght@400..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg-combo1 {
+    background-image: url('./assets/ImagesCombos/1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  
+  .bg-combo2 {
+    background-image: url('./assets/ImagesCombos/2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-Newsletter{
+    background-color: #936C4B;
+    background-image: url('./assets/ImagesNewsletter/Newsletter.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 347px;
+  }
+
+  .bg-Profissional{
+    background-image: url('./assets/ImagesProfissional/Girl.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 560px;
+    width: 600px;
+  }
+
+  .custom-width-475 {
+    width: 464px;
+  }
+
+  .custom-width-226 {
+    width: 226px;
+  }
+
+  .bg-footer{
+    background-color: #525252;
+  }
+
+.swiper-scrollbar-drag{
+  display: none;
+  color: none;
+  background-color: none;
+}
+
+.swiper-scrollbar-horizontal{
+  display: none;
+}
+
+/* Estilo básico da páginação */
+.header-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Efeito de transição ao passar o mouse */
+.header-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Estilo dos ícones de mídia social */
+.icon {
+  transition: color 0.3s ease-in-out;
+}
+
+/* Efeito de transição ao passar o mouse nos ícones de mídia social */
+.icon:hover {
+  color: #ff0000; /* Altere para a cor desejada */
+}
+
+/* Definindo cores específicas para cada ícone de mídia social */
+#fa-youtube:hover {
+  color: #ff0000; /* Cor do YouTube */
+}
+
+#fa-instagram:hover {
+  color: #833ab4; /* Cor do Instagram */
+}
+
+#fa-tiktok:hover {
+  color: #69c9d0; /* Cor do TikTok */
+}
+
+#fa-facebook:hover {
+  color: #3b5998; /* Cor do Facebook */
+}
+
+
+
+
