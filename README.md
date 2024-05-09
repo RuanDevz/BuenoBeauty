@@ -66,3 +66,8 @@ A landing page BuenoBeauty é um projeto desenvolvido para promover os serviços
 - **React Swiper**: Componente React para criar carrosséis de imagens de forma fácil e personalizada.
 - **AOS**: Biblioteca para adicionar animações de scroll a elementos HTML.
 
+
+  ## Deploy
+
+  Deploy: https://bueno-beauty.vercel.app/
+
