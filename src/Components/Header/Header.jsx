@@ -13,11 +13,13 @@ import { FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
+import { IoMdMenu } from "react-icons/io";
+
 
 const Header = () => {
   return (
     <div>
-      <header className='bg-primary py-2'>
+      <header className='bg-primary py-2 hidden lg:block'>
         <div className='flex justify-evenly mx-10 '>
             <div className='flex items-center  gap-3'>
               <img className='header-icon' src={Email} alt="Email" />
@@ -41,10 +43,13 @@ const Header = () => {
             </div>
         </div>
       </header>
-      <div className=' flex justify-around bg-white py-7'>
-          <img className='cursor-pointer' src={Logo} alt="Logo" />
+      <div className=' flex justify-around flex-col bg-white py-7 lg:flex-row'>
+        <div className='flex items-center justify-around'>
+        <img className='cursor-pointer w-60 lg:w-full' src={Logo} alt="Logo" />
+          <IoMdMenu className='text-2xl text-primary cursor-pointer lg:hidden' />
+        </div>
           <div>
-            <ul className=' py-7 flex justify-around items-center gap-6'>
+            <ul className=' py-7 flex justify-around items-center gap-6 hidden lg:flex'>
               <li className='hover:text-segundary cursor-pointer lett tracking-widest'>HOME</li>
               <li className='hover:text-segundary cursor-pointer lett tracking-widest'>SOBRE NÓS</li>
               <li className='hover:text-segundary cursor-pointer lett tracking-widest'>SERVIÇOS</li>

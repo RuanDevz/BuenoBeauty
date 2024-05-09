@@ -8,12 +8,12 @@ import Button from '../Button/Button';
 const ContactUs = () => {
   return (
     <div>
-      <main className='max-w-screen-xl mx-auto pt-36 flex justify-between'>
+      <main className='max-w-screen-xl mx-auto pt-36 flex items-center  flex-col text-center lg:flex-row justify-between'>
         <section>
           <p className='font-primary text-2xl'>Ficou alguma dúvida?</p>
           <h1 className='text-segundary font-primary font-bold text-4xl'>FALE CONOSCO</h1>
           <p className='font-segundary py-10 max-w-lg'>Não perca mais tempo e entre agora em contato com nossa equipe de especialistas. Teremos o maior prazer em ajudar você.</p>
-          <div className='flex flex-col gap-6'>
+          <div className='flex flex-col gap-6 items-center lg:items-start'>
             <div className='flex items-center gap-5 bg-segundary p-2 rounded-md w-44 '>
               <img src={Telefone} alt="Telefone" />
               <p className='text-white'>(00) 0000-0000</p>
@@ -22,7 +22,7 @@ const ContactUs = () => {
               <img className='w-6 h-6 max-w-full' src={Whatsapp} alt="Whatsapp" />
               <p className='text-white'>(00) 0000-0000</p>
             </div>
-            <div className='flex items-center gap-5 bg-segundary p-2 rounded-md  w-72'>
+            <div className='flex items-center gap-5 mb-16 bg-segundary p-2 rounded-md  w-72'>
               <img className='w-6 h-6 max-w-full' src={Email} alt="Email" />
               <p className='text-white'>contato@buenobeauty.com.br</p>
             </div>

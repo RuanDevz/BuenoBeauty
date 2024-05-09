@@ -12,34 +12,35 @@ const Designers = [
   {
     id: 1,
     img: Designer1,
-    name: 'Sarah Rules',
-    profession: 'Hair Designer' // Corrigi a ortografia de 'profession'
+    name: 'Elena Smith',
+    profession: 'Interior Designer'
   },
   {
     id: 2,
     img: Designer2,
-    name: 'Sarah Rules',
-    profession: 'Hair Designer'
+    name: 'Lucas Thompson',
+    profession: 'Graphic Designer'
   },
   {
     id: 3,
     img: Designer3,
-    name: 'Sarah Rules',
-    profession: 'Hair Designer'
+    name: 'Sophia Nguyen',
+    profession: 'Fashion Designer'
   },
   {
     id: 4,
     img: Designer4,
-    name: 'Sarah Rules',
-    profession: 'Hair Designer'
+    name: 'Oliver Martinez',
+    profession: 'Industrial Designer'
   },
   {
     id: 5,
     img: Designer5,
-    name: 'Sarah Rules',
-    profession: 'Hair Designer'
+    name: 'Isabella Lee',
+    profession: 'Web Designer'
   }
 ];
+
 
 const Profissional = () => {
   return (
@@ -54,13 +55,14 @@ const Profissional = () => {
         </section>
         <section>
           <section>
+            <h1 className='font-primary font-bold text-4xl text-segundary pb-10 text-center mt-32 lg:hidden'>NOSSOS PROFISSIONAIS</h1>
             <div className="flex flex-wrap justify-around items-center gap-16 pt-32 pl-8">
               {Designers.map((Design) => (
                 <div key={Design.id} className="w-48 mb-8">
                   <img src={Design.img} alt={Design.name} className="w-full rounded" />
                   <p className="mt-2">{Design.name}</p>
                   <p className="text-gray-600 text-segundary border-b border-segundary pb-5">{Design.profession}</p>
-                  <div className="flex mt-2 pt-3">
+                  <div className="flex justify-center mt-2 pt-3 lg:justify-start">
                     <img src={Instagram} alt="Instagram" className="w-6 h-6 mr-2" />
                     <img src={Tiktok} alt="Tiktok" className="w-6 h-6" />
                   </div>

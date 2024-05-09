@@ -4,7 +4,7 @@ import Button from '../Button/Button'
 
 const Combos = () => {
   return (
-    <main className='flex w-full pt-36'>
+    <main className='flex flex-col w-full pt-36 lg:flex-row'>
         <section className='bg-combo1 w-full h-96 m-0 flex flex-col pt-32 '>
           <div className='max-w-xl mx-auto'>
           <p className='text-xl text-white font-bold font-primary'>CONHEÇA NOSSO</p>

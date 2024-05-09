@@ -21,15 +21,22 @@
     background-image: url('./assets/ImagesNewsletter/Newsletter.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 347px;
+    height: 480px;
   }
 
-  .bg-Profissional{
+  .bg-Profissional {
+    display: none;
     background-image: url('./assets/ImagesProfissional/Girl.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 560px;
     width: 600px;
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .bg-Profissional {
+      display: block;
+    }
   }
 
   .custom-width-475 {
@@ -40,6 +47,10 @@
     width: 226px;
   }
 
+
+  .custom-maxwidth-724{
+    max-width: 724px;
+  }
   .bg-footer{
     background-color: #525252;
   }
@@ -89,6 +100,10 @@
 
 #fa-facebook:hover {
   color: #3b5998; /* Cor do Facebook */
+}
+
+.modelo{
+  width: 700px;
 }
 
 
