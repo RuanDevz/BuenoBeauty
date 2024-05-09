@@ -7,7 +7,7 @@ Esta é a documentação para a criação de uma landing page para o salão de b
 
 ## Introdução
 
-A landing page BuenoBeauty é um projeto desenvolvido para promover os serviços e produtos oferecidos pelo salão de beleza. Esta página foi construída utilizando tecnologias modernas como React para a estruturação do aplicativo, React Swiper para a criação de um carrossel de imagens dinâmico e AOS para adicionar efeitos de animação ao rolar da página.
+A landing page BuenoBeauty é um projeto desenvolvido para promover os serviços e produtos oferecidos pelo salão de beleza. Esta página foi construída utilizando tecnologias modernas como React para a estruturação do aplicativo, TailwindCSS para estilização e responsividade do site, React Swiper para a criação de um carrossel de imagens dinâmico e AOS para adicionar efeitos de animação ao rolar da página.
 
 ## Pré-requisitos
 
