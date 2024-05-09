@@ -62,6 +62,7 @@ A landing page BuenoBeauty é um projeto desenvolvido para promover os serviços
 ## Tecnologias Utilizadas
 
 - **React**: Biblioteca JavaScript para a construção de interfaces de usuário.
+- **TailwindCSS**: Biblioteca CSS para a estilização de maneira mais eficiente.
 - **React Swiper**: Componente React para criar carrosséis de imagens de forma fácil e personalizada.
 - **AOS**: Biblioteca para adicionar animações de scroll a elementos HTML.
 
