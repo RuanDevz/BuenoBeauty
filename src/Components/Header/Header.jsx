@@ -72,7 +72,7 @@ const Header = () => {
                 <li className='hover:text-black cursor-pointer lett tracking-widest lg:hover:text-segundary'>SERVIÇOS</li>
                 <li className='hover:text-black cursor-pointer lett tracking-widest lg:hover:text-segundary'>PROFISSIONAIS</li>
                 <li className='hover:text-black cursor-pointer lett tracking-widest lg:hover:text-segundary'>CONTATO</li>
-                <Button className='bg-button py-3 px-6 ml-12 font-primary text-white hover:text-segundary rounded hidden lg:flex' children='AGENDAR HORÁRIO' />
+                <Button className='bg-button py-3 px-6 ml-12 font-primary text-white hover:text-segundary rounded hidden lg:flex' childreen='AGENDAR HORÁRIO' />
               </ul>
             </div>
           )}
