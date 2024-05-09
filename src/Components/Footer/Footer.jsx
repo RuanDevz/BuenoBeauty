@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div>
       <main className='bg-black flex  flex-col mt-32'>
-        <section className=' text-center gap-48 py-24 lg:flex justify-around items-center'>
+        <section className=' text-center flex justify-center flex-col items-center gap-48 py-24 lg:flex justify-around items-center'>
           <article className='flex flex-col items-center max-w-lg text'>
             <img className='w-72'  src={logo} alt="logo" />
             <p className='text-white pt-10 font-segundary text-left pb-20 lg:pb-0'>BuenoBeauty é mais do que um salão de beleza, é um espaço onde a beleza encontra o seu significado mais profundo. Nossa missão é proporcionar experiências de beleza excepcionais, que vão além da estética, elevando a autoestima e a confiança de nossos clientes.</p>
