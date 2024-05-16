@@ -9,7 +9,7 @@ import '../../index.css'
 const ContactUs = () => {
   return (
     <div>
-      <main  data-aos="fade-down" data-aos-offset="900" className='max-w-screen-xl mx-auto pt-36 flex items-center  flex-col text-center lg:flex-row justify-between'>
+      <main  data-aos="fade-down"  className='max-w-screen-xl mx-auto pt-36 flex items-center  flex-col text-center lg:flex-row justify-between'>
         <section >
           <p className='font-primary text-2xl lg:text-left'>Ficou alguma dúvida?</p>
           <h1 className='text-segundary font-primary font-bold text-4xl lg:text-left'>FALE CONOSCO</h1>

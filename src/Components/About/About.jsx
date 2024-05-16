@@ -9,7 +9,7 @@ import isolated from '../../assets/ImagesAbout/isolated.png'
 const About = () => {
   return (
     <div  className='flex justify-between mx-auto lg:justify-center'>
-        <div data-aos="zoom-in" data-aos-offset="900" className='font-primary max-w-lg mx-auto pt-20'>
+        <div data-aos="zoom-in"  className='font-primary max-w-lg mx-auto pt-20'>
             <h1 className='text-button font-bold text-center lg:text-left'>SOBRE A</h1>
             <h2 className='text-primary text-4xl font-medium pb-6 text-center lg:text-left'>BUENO BEAUTY</h2>
             <p className='text-center lg:text-left'>Na Bueno Beauty, acreditamos que cada cliente merece atenção especial e cuidado individualizado. Nossa missão é criar looks deslumbrantes que não apenas realcem a beleza natural de nossos clientes, mas também aumentem sua confiança e autoestima. Do corte de cabelo perfeito ao tratamento de cor impecável, estamos aqui para superar suas expectativas e deixá-lo(a) sentindo-se incrível.</p>
@@ -45,7 +45,7 @@ const About = () => {
 </div>
 
         </div>
-        <div data-aos="zoom-in" data-aos-offset="900" data-aos-delay="800">
+        <div data-aos="zoom-in"  data-aos-delay="400">
             <img className='hidden lg:flex' src={Beauty} alt="Beauty" />
         </div>
         <div>

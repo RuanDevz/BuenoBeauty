@@ -45,7 +45,7 @@ const Designers = [
 const Profissional = () => {
   return (
     <div>
-      <main data-aos="fade-right" data-aos-offset="900" className='flex'>
+      <main data-aos="fade-right" className='flex'>
         <section className='bg-Profissional'>
           <div className='max-w-xs flex flex-col pt-44 ml-48'>
             <h1 className='font-primary font-bold text-white text-right'>NOSSOS</h1>

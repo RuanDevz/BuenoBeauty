@@ -15,12 +15,12 @@ const App = () => {
 
   useEffect(() => {
     const isMobile = window.innerWidth <= 768;
-
-    if (!isMobile) {
-      AOS.init({ duration: "500" });
+    if(isMobile){
+      AOS.init({ duration: "500", offset: 300});
     }else{
-      AOS.init({ disable: true });
+      AOS.init({ duration: "500", offset: 700});
     }
+
   }, []);
   return (
     <div>

@@ -55,14 +55,13 @@ const Services = () => {
 
     return (
         <div>
-            <section data-aos="fade-right" data-aos-offset="900" className='flex justify-center items-center flex-col pt-56 pb-32'>
+            <section data-aos="fade-right"  className='flex justify-center items-center flex-col pt-56 pb-32'>
                 <p className='text-button font-primary font-bold text-3xl'>Nossos</p>
                 <h1 className='text-primary font-primary font-bold text-6xl'>Serviços</h1>
             </section>
             <section data-aos="fade-zoom-in"
      data-aos-easing="ease-in-back"
-     data-aos-delay="300"
-     data-aos-offset="700" className='flex justify-around flex-wrap items-center max-w-screen-2xl mx-auto'>
+     className='flex justify-around flex-wrap items-center max-w-screen-2xl mx-auto'>
                 {services.map(service => (
                     <div key={service.id} className='text-center p-12 my-5 border border-1 border-solid borderdiv rounded-md	'>
                         <h1 className='text-primary text-2xl font-bold font-primary pb-2'>{service.title}</h1>

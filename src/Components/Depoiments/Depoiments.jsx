@@ -47,7 +47,7 @@ const depoiments = [
 const Depoiments = () => {
 
     return (
-        <div  data-aos="fade-left" data-aos-offset="900" className='bg-depoiments pb-40'>
+        <div  data-aos="fade-left" className='bg-depoiments pb-40'>
             <h1 className='text-segundary font-primary text-4xl text-center font-bold py-10'>DEPOIMENTOS</h1>
             <Swiper className='lg:'
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
